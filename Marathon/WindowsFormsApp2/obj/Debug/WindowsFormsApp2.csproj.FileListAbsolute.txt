@@ -1,0 +1,26 @@
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ГлавноеМеню.resources
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.LoginMenu.resources
+C:\Users\stud\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.АвторизацияУчаствовалЛиУже.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.MenuAdmin.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ГлавноеМеню.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.LoginMenu.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.MenuCoordinator.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.MenuRunner.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.LoginOrNot.resources
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\rev-i\OneDrive\Рабочий стол\Marathon\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb

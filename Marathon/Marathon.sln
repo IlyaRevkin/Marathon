@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marathon", "WindowsFormsApp2\Marathon.csproj", "{A726DCB8-7050-4760-9E16-F136D93D1937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A726DCB8-7050-4760-9E16-F136D93D1937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A726DCB8-7050-4760-9E16-F136D93D1937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A726DCB8-7050-4760-9E16-F136D93D1937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A726DCB8-7050-4760-9E16-F136D93D1937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63657B70-D14A-43B3-8BC2-B2A936C798AA}
+	EndGlobalSection
+EndGlobal
