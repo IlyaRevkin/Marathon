@@ -57,6 +57,7 @@
             this.button_Reg = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.button_info = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -293,10 +294,9 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(485, 179);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(187, 30);
+            this.radioButton1.Size = new System.Drawing.Size(14, 13);
             this.radioButton1.TabIndex = 17;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Вариант А ($0): Номер бегуна + \r\nRFID браслет.";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -357,11 +357,21 @@
             this.button_info.UseVisualStyleBackColor = true;
             this.button_info.Click += new System.EventHandler(this.button_info_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(667, 43);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.TabIndex = 48;
+            this.label8.Text = "label8";
+            // 
             // RegMarathon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 421);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button_info);
             this.Controls.Add(this.button_Cancel);
             this.Controls.Add(this.button_Reg);
@@ -426,5 +436,6 @@
         private System.Windows.Forms.Button button_Reg;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Button button_info;
+        private System.Windows.Forms.Label label8;
     }
 }

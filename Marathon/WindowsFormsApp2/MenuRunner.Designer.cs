@@ -148,6 +148,7 @@
             this.RegistrationForMarathon.TabIndex = 3;
             this.RegistrationForMarathon.Text = "Регистрация на марафон";
             this.RegistrationForMarathon.UseVisualStyleBackColor = false;
+            this.RegistrationForMarathon.Click += new System.EventHandler(this.RegistrationForMarathon_Click);
             // 
             // MyResult
             // 

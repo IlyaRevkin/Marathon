@@ -41,5 +41,12 @@ namespace WindowsFormsApp2
             MainMenu mainMenu = new MainMenu();
             mainMenu.GetForm();
         }
+
+        private void RegistrationForMarathon_Click(object sender, EventArgs e)
+        { 
+            RegMarathon regMarathon = new RegMarathon();
+            regMarathon.Show();
+            this.Close();
+        }
     }
 }
