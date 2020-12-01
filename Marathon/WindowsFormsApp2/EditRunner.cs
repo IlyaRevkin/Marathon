@@ -59,9 +59,41 @@ namespace WindowsFormsApp2
                     }
                     readerGender.Close();
 
+                    string SqlExpUser = "SELECT [FirstName],[Lastname] FROM [dbo].[User] where [Email]=@email";
+                    SqlCommand cmdUser = new SqlCommand(SqlExpUser, Connection.connection);
+
+                    cmdUser.Parameters.AddWithValue("@email", Connection.userLogin);
+
+                    SqlDataReader readerUser = cmdUser.ExecuteReader();
+                    if (readerUser.HasRows)
+                    {
+                        while (readerUser.Read())
+                        {
+                            textBox_Name.Text = (string)readerUser[0];
+                            textBox_LastName.Text = (string)readerUser[1];
+                        }
+                    }
+                    readerUser.Close();
+
+                    string SqlExpRunner = "select [Gender],[CountryName],[DateOfBirth] from [dbo].[Runner] r inner join [dbo].[Country] c on r.[CountryCode] =c.[CountryCode] where [Email]=@email";
+                    SqlCommand cmdRunner = new SqlCommand(SqlExpRunner, Connection.connection);
+
+                    cmdRunner.Parameters.AddWithValue("@email", Connection.userLogin);
+
+                    SqlDataReader readerRunner = cmdRunner.ExecuteReader();
+                    if (readerRunner.HasRows)
+                    {
+                        while (readerRunner.Read())
+                        {
+                            comboBox_Gender.Text = (string)readerRunner[0];
+                            comboBox_Country.Text = (string)readerRunner[1];
+                            dateTimePicker_DateOfBirthday.Value = Convert.ToDateTime(readerRunner[2]);
+                        }
+                            readerRunner.Close();
+                    }
+                    readerRunner.Close();
+
                     label_Email.Text = Connection.userLogin;
-                    string SqlExpEmail = "SELECT [Email] FROM [dbo].[User]";
-                    SqlCommand cmdEmail = new SqlCommand(SqlExpEmail, Connection.connection);
 
                 }
             }
@@ -96,7 +128,7 @@ namespace WindowsFormsApp2
                     /*Возможно работает некорректно*/
                     if (DateTime.Now.Year - dateTimePicker_DateOfBirthday.Value.Year >= 10)
                     {
-                        string sqlExpUser = "update [User] set [Firstname]=@firstname, [Lastname]=@lastname where [Email]=@email";
+                        string sqlExpUser = "update [User] set [FirstName]=@firstname, [Lastname]=@lastname where [Email]=@email";
                         SqlCommand cmdUser = new SqlCommand(sqlExpUser, Connection.connection);
 
                         cmdUser.Parameters.AddWithValue("@email", Connection.userLogin);

@@ -186,14 +186,14 @@ namespace WindowsFormsApp2
                         string SqlExpRunnerId = "select [RunnerId] from [Runner] where [Email]=@email";
                         SqlCommand cmdRunnerId = new SqlCommand(SqlExpRunnerId, Connection.connection);
                         cmdRunnerId.Parameters.AddWithValue("@email", Connection.userLogin);
-                        /**/int runnerid = (int)cmdRunnerId.ExecuteScalar();
+                        int runnerid = (int)cmdRunnerId.ExecuteScalar();
 
                         string SqlExpCharity = "select [CharityId] from [dbo].[Charity] where [CharityName]=@charityname";
                         SqlCommand cmdCharity = new SqlCommand(SqlExpCharity, Connection.connection);
                         cmdCharity.Parameters.AddWithValue("@charityname", comboBox1.Text);
                         int charityid = (int)cmdCharity.ExecuteScalar();
 
-                        string SqlExp = "insert into [dbo].[Registration] ([RunnerId], [RegistrationDateTimer], [RaceKitOptionId], [RegistrationStatusId], [Cost], [CharityId], [SponsorshipTarget]) " +
+                        string SqlExp = "insert into [dbo].[Registration] ([RunnerId], [RegistrationDateTime], [RaceKitOptionId], [RegistrationStatusId], [Cost], [CharityId], [SponsorshipTarget]) " +
                             "VALUES (@runnerid, getdate(), @rkoid, '1', @cost, @charityid, @sponsorship)";
                         SqlCommand cmd = new SqlCommand(SqlExp, Connection.connection);
 
